@@ -36,5 +36,5 @@ server.start(
       origin: process.env.FRONT_END_URL,
     },
   },
-  () => console.log(`Server is running on ${process.env.GRAPHQL_SERVER_ENDPOINT}`)
+  () => console.log(`Server is running on http://localhost:${process.env.PORT}`)
 );
